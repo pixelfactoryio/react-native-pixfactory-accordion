@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, ScrollView } from 'react-native';
 
-import PixAccordion from 'react-native-pixaccordion';
+import PixAccordion from 'react-native-pixfactory-accordion';
 import StatusBarBackground from './components/StatusBarBackground';
 import SubMenu from './components/SubMenu';
 import FakeTweet from './components/FakeTweet';

@@ -2,7 +2,7 @@
 
 *Animated Accordion component for React Native using react-native-collapsible* [https://github.com/oblador/react-native-collapsible]()
 
-This component is heavily inspired by the `<Accordion />` component shiped with react-native-collapsible. The inspiration to make this component came from this one [https://github.com/naoufal/react-native-accordion](), but as react-native-collapsible is using `Animated`, I decided to write my own component based on `<Collapsible />`.
+This component is heavily inspired by the `<Accordion />` component shiped with [https://github.com/oblador/react-native-collapsible](react-native-collapsible). The inspiration to make this component came from this one [https://github.com/naoufal/react-native-accordion](), but as react-native-collapsible is using `Animated`, I decided to write my own component based on `<Collapsible />`.
 
 ## Installation
 
@@ -50,7 +50,7 @@ Check `Example` folder for more details :
 import React, { Component } from 'react';
 import { StyleSheet, View, ScrollView } from 'react-native';
 
-import PixAccordion from 'react-native-pixaccordion';
+import PixAccordion from 'react-native-pixfactory-accordion';
 import StatusBarBackground from './components/StatusBarBackground';
 import SubMenu from './components/SubMenu';
 import FakeTweet from './components/FakeTweet';
