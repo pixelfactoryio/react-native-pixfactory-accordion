@@ -1,0 +1,46 @@
+{
+  "name": "react-native-pixaccordion",
+  "version": "0.2.0",
+  "description": "React Native Accordion implementation using react-native-collapsible",
+  "main": "PixAccordion.js",
+  "scripts": {
+    "test": "eslint *.js"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "collapse",
+    "collapsible",
+    "toggle",
+    "accordion"
+  ],
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/amine7536/react-native-pixfactory-accordion"
+  },
+  "bugs": {
+    "url": "https://github.com/amine7536/react-native-pixfactory-accordion/issues"
+  },
+  "author": "Amine Benseddik <amine.benseddik@pixelfactory.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "babel-preset-airbnb": "^2.0.0",
+    "babel-preset-react-native": "^1.9.0",
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.1",
+    "eslint-plugin-react": "^6.2.0",
+    "eslint-plugin-react-native": "^2.0.0"
+  },
+  "dependencies": {
+    "react-native-collapsible": "^0.7.0"
+  }
+}
