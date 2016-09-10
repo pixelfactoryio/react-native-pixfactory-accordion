@@ -1,5 +1,5 @@
 {
-  "name": "react-native-pixaccordion",
+  "name": "react-native-pixfactory-accordion",
   "version": "0.2.0",
   "description": "React Native Accordion implementation using react-native-collapsible",
   "main": "PixAccordion.js",
