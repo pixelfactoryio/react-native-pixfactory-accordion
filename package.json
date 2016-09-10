@@ -1,6 +1,6 @@
 {
   "name": "react-native-pixfactory-accordion",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "React Native Accordion implementation using react-native-collapsible",
   "main": "PixAccordion.js",
   "scripts": {
@@ -21,8 +21,8 @@
     "accordion"
   ],
   "repository": {
-      "type": "git",
-      "url": "https://github.com/amine7536/react-native-pixfactory-accordion"
+    "type": "git",
+    "url": "https://github.com/amine7536/react-native-pixfactory-accordion"
   },
   "bugs": {
     "url": "https://github.com/amine7536/react-native-pixfactory-accordion/issues"
