@@ -1,8 +1,8 @@
 # react-native-pixfactory-accordion
 
-*Animated Accordion component for React Native using react-native-collapsible* [https://github.com/oblador/react-native-collapsible]()
+*Animated Accordion component for React Native using react-native-collapsible* [https://github.com/oblador/react-native-collapsible](https://github.com/oblador/react-native-collapsible)
 
-This component is heavily inspired by the `<Accordion />` component shiped with [https://github.com/oblador/react-native-collapsible](react-native-collapsible). The inspiration to make this component came from this one [https://github.com/naoufal/react-native-accordion](), but as react-native-collapsible is using `Animated`, I decided to write my own component based on `<Collapsible />`.
+This component is heavily inspired by the `<Accordion />` component shiped with [react-native-collapsible](https://github.com/oblador/react-native-collapsible). The inspiration to make this component came from this one [https://github.com/naoufal/react-native-accordion](https://github.com/naoufal/react-native-accordion), but as react-native-collapsible is using `Animated`, I decided to write my own component based on `<Collapsible />`.
 
 ## Installation
 
@@ -33,7 +33,7 @@ import PixAccordion from 'react-native-pixfactory-accordion';
 |**`underlayColor`**|The color of the underlay that will show through when tapping on headers. Defaults to transparent. |
 
 Since this `<PixAccordion />` is based on `react-native-collapsible` you can use any of `<Collapsible />` props, like `easing`, `duration` ... The list can be found here :  
-[https://github.com/oblador/react-native-collapsible/blob/master/README.md]()
+[https://github.com/oblador/react-native-collapsible/blob/master/README.md](https://github.com/oblador/react-native-collapsible/blob/master/README.md)
 
 ## Demo
 
