@@ -34,6 +34,14 @@ class PixAccordion extends Component {
     }
   }
 
+  componentWillReceiveProps(nextProps) {
+    if(nextProps.collapsed !== this.state.collapsed) {
+      this.setState({
+        collapsed: nextProps.collapsed
+      });
+    }
+  }
+
   render() {
     const { children, renderHeader, underlayColor, ...collapsibleProps } = this.props;
     return (
