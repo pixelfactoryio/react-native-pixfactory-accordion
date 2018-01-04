@@ -1,6 +1,7 @@
-import React, { Component, PropTypes, } from 'react';
-import { View, TouchableHighlight } from 'react-native';
-import Collapsible from 'react-native-collapsible';
+import React, { Component } from "react";
+import { View, TouchableHighlight } from "react-native";
+import PropTypes from "prop-types";
+import Collapsible from "react-native-collapsible";
 
 /**
  * PixAccordion Component
@@ -11,22 +12,22 @@ class PixAccordion extends Component {
     underlayColor: PropTypes.string,
     renderHeader: PropTypes.func.isRequired,
     children: PropTypes.node
-  }
+  };
 
   static defaultProps = {
-    underlayColor: 'rgba(0, 0, 0, 0)',
-  }
+    underlayColor: "rgba(0, 0, 0, 0)"
+  };
 
   constructor(props) {
     super(props);
     this.state = {
-      collapsed: props.collapsed !== undefined ? props.collapsed : true,
+      collapsed: props.collapsed !== undefined ? props.collapsed : true
     };
   }
 
   _toggleCollapsed() {
     this.setState({
-      collapsed: !this.state.collapsed,
+      collapsed: !this.state.collapsed
     });
 
     if (this.props.onChange) {
@@ -35,7 +36,7 @@ class PixAccordion extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    if(nextProps.collapsed !== this.state.collapsed) {
+    if (nextProps.collapsed !== this.state.collapsed) {
       this.setState({
         collapsed: nextProps.collapsed
       });
@@ -43,21 +44,21 @@ class PixAccordion extends Component {
   }
 
   render() {
-    const { children, renderHeader, underlayColor, ...collapsibleProps } = this.props;
+    const {
+      children,
+      renderHeader,
+      underlayColor,
+      ...collapsibleProps
+    } = this.props;
     return (
       <View>
         <TouchableHighlight
           onPress={() => this._toggleCollapsed()}
           underlayColor={underlayColor}
         >
-          <View>
-            {renderHeader()}
-          </View>
+          <View>{renderHeader()}</View>
         </TouchableHighlight>
-        <Collapsible
-          {...collapsibleProps}
-          collapsed={this.state.collapsed}
-        >
+        <Collapsible {...collapsibleProps} collapsed={this.state.collapsed}>
           {children}
         </Collapsible>
       </View>
