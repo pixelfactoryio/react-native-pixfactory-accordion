@@ -3,12 +3,16 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
-    "prop-types": "^15.6.0",
-    "react": "16.0.0-alpha.12",
-    "react-native": "0.46.1",
-    "react-native-pixfactory-accordion": "file:../"
-  }
+    "prop-types": "^15.6.2",
+    "react": "16.5.0",
+    "react-native": "0.63.0",
+    "react-native-pixfactory-accordion": "file:../",
+    "snyk": "^1.468.0"
+  },
+  "snyk": true
 }
