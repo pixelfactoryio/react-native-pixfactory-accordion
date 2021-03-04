@@ -4,9 +4,7 @@
   "description": "React Native Accordion implementation using react-native-collapsible",
   "main": "PixAccordion.js",
   "scripts": {
-    "test": "eslint *.js",
-    "snyk-protect": "snyk protect",
-    "prepare": "yarn run snyk-protect"
+    "test": "eslint *.js"
   },
   "keywords": [
     "react-native",
@@ -35,7 +33,7 @@
     "babel-eslint": "^6.1.2",
     "babel-preset-airbnb": "^2.0.0",
     "babel-preset-react-native": "^1.9.0",
-    "eslint": "^4.18.2",
+    "eslint": "^5.0.0",
     "eslint-config-airbnb": "^10.0.1",
     "eslint-plugin-import": "^1.14.0",
     "eslint-plugin-jsx-a11y": "^2.2.1",
@@ -43,8 +41,6 @@
     "eslint-plugin-react-native": "^2.0.0"
   },
   "dependencies": {
-    "react-native-collapsible": "^0.9.0",
-    "snyk": "^1.468.0"
-  },
-  "snyk": true
+    "react-native-collapsible": "^0.9.0"
+  }
 }
