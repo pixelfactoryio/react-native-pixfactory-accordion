@@ -10,7 +10,7 @@
   "dependencies": {
     "prop-types": "^15.6.2",
     "react": "16.5.0",
-    "react-native": "0.63.0",
+    "react-native": "0.65.0",
     "react-native-pixfactory-accordion": "file:../",
     "snyk": "^1.468.0"
   },
