@@ -1307,9 +1307,9 @@ ansi-fragments@^0.2.1:
     strip-ansi "^5.0.0"
 
 ansi-regex@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-4.1.0.tgz#8b9f8f08cf1acb843756a839ca8c7e3168c51997"
-  integrity sha512-1apePfXM1UOSqw0o9IiFAovVz9M5S1Dg+4TrDwfMewQ6p/rmMueb7tWZjQ1rx4Loy1ArBggoqGpfqqdI4rondg==
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-4.1.1.tgz#164daac87ab2d6f6db3a29875e2d1766582dabed"
+  integrity sha512-ILlv4k/3f6vfQ4OoP2AGvirOktlQ98ZEL1k9FaQjxa3L1abBgbuTDAdPOpvbGncC0BTVQrl+OM8xZGK6tWXt7g==
 
 ansi-regex@^5.0.0:
   version "5.0.0"
@@ -4767,6 +4767,15 @@ prompts@^2.4.0:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
+prop-types@^15.5.10:
+  version "15.8.1"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
+  integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.13.1"
+
 prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
@@ -4869,7 +4878,7 @@ react-devtools-core@^4.6.0:
     shell-quote "^1.6.1"
     ws "^7"
 
-react-is@^16.8.1:
+react-is@^16.13.1, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
@@ -4888,8 +4897,17 @@ react-native-codegen@^0.0.6:
     jscodeshift "^0.11.0"
     nullthrows "^1.1.1"
 
+react-native-collapsible@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/react-native-collapsible/-/react-native-collapsible-0.9.0.tgz#207849faa15493820d19fa6a5e58f7c7b6c1b910"
+  integrity sha512-AD0OcjrhOgj0/XoaDK5O3RKqfVRUdGi/MNqt1UsnFCEi+qaXci26YNBWBQq7tybBWaqVn5zRLVHJjQBNy4hmWg==
+  dependencies:
+    prop-types "^15.5.10"
+
 "react-native-pixfactory-accordion@file:..":
-  version "0.0.0"
+  version "0.2.3"
+  dependencies:
+    react-native-collapsible "^0.9.0"
 
 react-native@0.64.0:
   version "0.64.0"
