@@ -31,16 +31,16 @@
   "license": "MIT",
   "devDependencies": {
     "babel-eslint": "^6.1.2",
-    "babel-preset-airbnb": "^2.0.0",
+    "babel-preset-airbnb": "^3.0.0",
     "babel-preset-react-native": "^1.9.0",
-    "eslint": "^5.0.0",
+    "eslint": "^8.15.0",
     "eslint-config-airbnb": "^10.0.1",
-    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^2.2.1",
     "eslint-plugin-react": "^6.2.0",
     "eslint-plugin-react-native": "^2.0.0"
   },
   "dependencies": {
-    "react-native-collapsible": "^0.9.0"
+    "react-native-collapsible": "^0.13.0"
   }
 }
